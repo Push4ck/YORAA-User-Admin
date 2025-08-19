@@ -4,6 +4,7 @@ const Sidebar = () => {
   const links = [
     { path: "/create-category", label: "Create Category" },
     { path: "/manage-items", label: "Manage Items" },
+    { path: "/upload-items", label: "Upload Items" },
   ];
 
   return (
