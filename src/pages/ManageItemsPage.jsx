@@ -8,6 +8,7 @@ import {
   Upload,
   Eye,
   Save,
+  X,
   AlertCircle,
 } from "lucide-react";
 import Button from "../components/Button";
