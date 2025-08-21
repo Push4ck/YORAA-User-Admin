@@ -1,11 +1,11 @@
 import { LogOut, KeyRound } from "lucide-react";
 
-const Navbar = () => {
+const Navbar = ({ user = "Guest" }) => {
   return (
     <header className="flex justify-between items-center bg-white px-6 py-4 shadow-sm border-b border-gray-200">
       {/* Title */}
       <h2 className="text-2xl font-bold text-gray-800 tracking-tight">
-        Dashboard
+        {`Welcome ${user}!`}
       </h2>
 
       {/* Right Controls */}

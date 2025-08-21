@@ -5,6 +5,8 @@ const Sidebar = () => {
     { path: "/create-category", label: "Create Category" },
     { path: "/manage-items", label: "Manage Items" },
     { path: "/upload-items", label: "Upload Items" },
+    { path: "/arrangement-control", label: "Arrangement Control" },
+    { path: "/product-bundling", label: "Product Bundling" },
   ];
 
   return (

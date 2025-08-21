@@ -26,9 +26,8 @@ const UploadItems = () => {
   };
 
   return (
-    <div className="p-8 bg-gray-100 min-h-screen">
-      <h1 className="flex items-center gap-2 text-2xl font-bold text-gray-800 mb-8">
-        <Package className="w-6 h-6 text-blue-600" />
+    <div className="min-h-screen p-6">
+      <h1 className="text-2xl font-semibold text-gray-800 mb-8">
         Upload Items
       </h1>
 

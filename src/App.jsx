@@ -4,6 +4,8 @@ import DashboardLayout from "./layouts/DashboardLayout";
 import CreateCategoryPage from "./pages/CreateCategoryPage";
 import ManageItemsPage from "./pages/ManageItemsPage";
 import UploadItems from "./pages/UploadItems";
+import ArrangementControl from "./pages/ArrangementControlPage";
+import BundlingPage from "./pages/BundlingPage";
 
 const App = () => {
   const location = useLocation();
@@ -18,6 +20,8 @@ const App = () => {
         <Route path="/create-category" element={<CreateCategoryPage />} />
         <Route path="/manage-items" element={<ManageItemsPage />} />
         <Route path="/upload-items" element={<UploadItems />} />
+        <Route path="/arrangement-control" element={<ArrangementControl />} />
+        <Route path="/product-bundling" element={<BundlingPage />} />
       </Route>
     </Routes>
   );
