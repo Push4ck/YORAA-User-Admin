@@ -9,7 +9,6 @@ import {
   Settings,
   Eye,
   Package,
-  ArrowUpDown,
 } from "lucide-react";
 
 // Dropdown Component with enhanced functionality

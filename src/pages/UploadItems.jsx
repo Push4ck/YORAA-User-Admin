@@ -1,9 +1,8 @@
-import React, { useState } from "react";
-import { Package } from "lucide-react";
-import VariantForm from "../components/VariantForm";
-import SizeChart from "../components/SizeChart";
-import CategoryAssign from "../components/CategoryAssign";
-import FooterActions from "../components/FooterActions";
+import { useState } from "react";
+import VariantForm from "../components/forms/VariantForm";
+import SizeChart from "../components/product/SizeChart";
+import CategoryAssign from "../components/forms/CategoryAssign";
+import FooterActions from "../components/ui/FooterActions";
 
 const UploadItems = () => {
   // Example state for collecting form data

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FileText } from "lucide-react";
-import ProductImages from "./ProductImages";
-import StockSize from "./StockSize";
+import ProductImages from "../product/ProductImages";
+import StockSize from "../product/StockSize";
 import MetaData from "./MetaData";
 
 const VariantForm = ({ variantNumber, onChange }) => {

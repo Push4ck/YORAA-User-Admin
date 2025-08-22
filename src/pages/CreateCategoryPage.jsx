@@ -11,7 +11,6 @@ import {
   Filter,
   Grid3X3,
   List,
-  MoreHorizontal,
   Image as ImageIcon,
   ChevronDown,
   Eye,
